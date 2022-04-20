@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+    <header>
+        <%- include('../partials/header'); %>
+
+    </header>
+    
+    <main>
+       
+            
+            <div class="jumbotron">
+                <h1>Fill in to Search any Specific object </h1>
+                <h5>On this page you'll be able to find any product already saved</h5>
+                    <form action="/searchProducts" method="post">
+                    <label>ID Searched:</label>
+                    <input type="text" name="ID" id="id" />
+                    
+                    <br/>
+                    <input  type="submit" value="Submit" id="submite1" />
+                  </form>
+                
+            </div>
+            <%- include('../partials/p'); %>
+        
+        
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+</body>
+</html>

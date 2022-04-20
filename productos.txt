@@ -1,0 +1,1 @@
+[{"title":"Heladera","price":2000,"id":1},{"title":"Cocina","price":3000,"id":2},{"title":"Lavarropas","price":3000,"id":3},{"title":"Cuadernos","price":"500","id":4},{"title":"lapiz","price":"100","id":5},{"title":"computadora","price":"3000","id":6},{"title":"Lampara","price":"50","id":7},{"title":"Mause","price":"20","id":8}]
